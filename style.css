@@ -1,0 +1,70 @@
+/* Reset Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Grid Styles */ 
+.three-column-grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 1 rem;
+}      
+    
+
+.center {
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+
+/* Navigation Styles */
+
+.nav-list ul {
+    height: 100%;
+    display: grid;
+    gap: 1.5rem;
+    font-weight: bold;
+    list-style-type: none;
+}    
+
+.nav-list a
+.nav-list a:visited {
+    text-decoration: none;
+}
+
+.icon img {
+    width: 18px;
+}    
+
+.logo {
+    width: 35px;
+
+}
+
+/* .nav-list button {
+} */
+    
+
+  
+ 
